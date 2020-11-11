@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app = "mealAssinment" > <!-- myFirstApp is must be same as name in ouer app.js-->
+<head>
+    <meta charset="UTF-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+    <title> Firs AngularJS App</title>
+</head>
+
+    <h1>my Firt Assignment in AngularJS </h1>
+    <div " ng-controller="checkMaels">
+
+        Include your meals: 
+        <input type="text" ng-model="maels"> 
+      
+        <font color="red" size=2px>  - Insert your meals so that you place a comma between each meal -</font> 
+
+
+ <br><br>
+ <div>
+        <button ng-click = "checkMaelsFun()">Check If Too Much</button>
+
+        <br><br>
+       {{ans}}
+ </div>
+  </div>
+</body>
+</html>
