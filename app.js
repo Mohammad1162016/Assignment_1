@@ -15,7 +15,7 @@ function checkMaels($scope){
    var maelsListSplit = maelsList.split(",");
 
     if(maelsList.length == 0){
-      $scope.ans = "Enter Your maels" ;
+      $scope.ans = "Please enter data first" ;
     }
   else if(maelsListSplit.length <= 3 )
   
